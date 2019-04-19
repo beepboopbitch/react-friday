@@ -1,5 +1,6 @@
 import React from "react";
 import { Switch, Route, Link } from 'react-router-dom';
+import logo from '../assets/images/logo.png';
 
 function Header(){
   return(
@@ -79,6 +80,9 @@ function Header(){
       }  
       `}</style>
       <div className="top">
+        <div className="left">
+          <img className="logo" src={logo}/>
+        </div>
       </div>
     </header>
   );
