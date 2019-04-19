@@ -8,6 +8,12 @@ import pop3 from '../assets/images/pop3.jpg'
 import pop4 from '../assets/images/pop4.jpg'
 import pop5 from '../assets/images/pop5.jpg'
 import pop6 from '../assets/images/pop6.jpg'
+import Pop1 from './Pop1';
+import Pop2 from './Pop2';
+import Pop3 from './Pop3';
+import Pop4 from './Pop4';
+import Pop5 from './Pop5';
+import Pop6 from './Pop6';
 
 function Home(){
   return(
@@ -329,7 +335,7 @@ function Home(){
     <div className="pop pop1">
       <img src={pop1}/>
       <div className="text product product1">
-        <p>example text</p>
+        <p><Link to="/pop1">example text</Link></p>
       </div>
       <div className="text company company1">
         <p>example text</p>
@@ -341,7 +347,7 @@ function Home(){
     <div className="pop pop2">
       <img src={pop2}/>
       <div className="text product product2">
-        <p>example text</p>
+        <p><Link to="/pop2">example text</Link></p>
       </div>
       <div className="text company company2">
         <p>example text</p>
@@ -353,7 +359,7 @@ function Home(){
     <div className="pop pop3">
       <img src={pop3}/>
       <div className="text product product3">
-        <p>example text</p>
+        <p><Link to="/pop3">example text</Link></p>
       </div>
       <div className="text company company3">
         <p>example text</p>
@@ -365,7 +371,7 @@ function Home(){
     <div className="pop pop4">
       <img src={pop4}/>
       <div className="text product product4">
-        <p>example text</p>
+        <p><Link to="/pop4">example text</Link></p>
       </div>
       <div className="text company company4">
         <p>example text</p>
@@ -377,7 +383,7 @@ function Home(){
     <div className="pop pop5">
       <img src={pop5}/>
       <div className="text product product5">
-        <p>example text</p>
+        <p><Link to="/pop5">example text</Link></p>
       </div>
       <div className="text company company5">
         <p>example text</p>
@@ -389,7 +395,7 @@ function Home(){
     <div className="pop pop6">
       <img src={pop6}/>
       <div className="text product product6">
-        <p>example text</p>
+        <p><Link to="/pop6">example text</Link></p>
       </div>
       <div className="text company company6">
         <p>example text</p>
