@@ -74,6 +74,9 @@ function Home(){
       
       
       @media screen and (max-width: 900px){
+        *{
+          background-color: red;
+        }
         .shopGrid{
           display: grid;
           grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -104,6 +107,7 @@ function Home(){
           margin-top: 80px;
         }
       }
+      
       @media screen and (max-width: 640px){
         .quote{
           font-size: 25px;
@@ -179,6 +183,21 @@ function Home(){
         <div className="sideBottom">
           <p>Get it quick with ready-to-ship finds ></p>
         </div>
+      </div>
+    </div>
+    
+    <div className="descriptions">
+      <div className="des des1">
+        <p className="checked">Unique everything</p>
+        <p className="def">We have millions of one-of-a-kind items<span className="defHide">, so you can find whatever you need (or really, really want)</span>.</p>
+      </div>
+      <div className="des des2">
+        <p className="checked">Independent sellers</p>
+        <p className="def">Buy directly from someone who put their heart and soul into making something special.</p>
+      </div>
+      <div className="des des3">
+        <p className="checked">Secure shopping</p>
+        <p className="def">We use best-in-class technology to protect your transactions.</p>
       </div>
     </div>
     
