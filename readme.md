@@ -38,7 +38,7 @@ _A webpage that mimics the functionality of Etsy with React components._
 
 ## React Clone:
 
-![]()
+![](./src/assets/images/react.png)
 
 ## Angular Clone:
 
