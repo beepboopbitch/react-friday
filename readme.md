@@ -27,7 +27,8 @@ _A webpage that mimics the functionality of Etsy with React components._
 
 ## Goals for first friday
 * _Make component structure | completed, will adjust as project continues_
-* _Setup react in my project and get component structure built | starting to develope_
+* _Setup react in my project and get component structure built | completed_
+* _Route all pages succesfully | Completed_
 * _Get majority of styling done_
 * _Hard code data for populars and display them_
 
