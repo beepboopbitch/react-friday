@@ -26,7 +26,7 @@ _A webpage that mimics the functionality of Etsy with React components._
 * _Fully styled main page, with routing to secondary pages that display a specific popular object (not fully styled). List of populars (on main page) is displaying hard coded data pulled from outside HTML._
 
 ## Goals for first friday
-* _Make component structure | starting to work on_
+* _Make component structure | completed_
 * _Get majority of styling done_
 * _Hard code data for populars and display them_
 
@@ -40,7 +40,7 @@ _A webpage that mimics the functionality of Etsy with React components._
 
 ## Angular Clone:
 
-![]()
+![](./src/assets/img/clone.png)
 
 ## Original Site:
 
