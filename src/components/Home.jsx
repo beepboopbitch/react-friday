@@ -200,9 +200,28 @@ function Home(){
           text-align: left;
           margin-left: 10px;
         }
-      }
-      @media screen and (max-width: 470px){
-        
+        .des2, .des3{
+          display: none;
+        }
+        .des1{
+          width: 70%;
+          margin-left: 15%;
+        }
+        .descriptions{
+          margin: 0 15% 0 15%;
+        }
+        .checked{
+          font-size: 17px;
+        }
+        .def{
+          font-size: 15;
+        }
+        .defHide{
+          display: none;
+        }
+        .descriptor{
+          font-size: 23px;
+        }
       }
     `}</style>
     
