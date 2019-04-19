@@ -14,7 +14,7 @@ _A webpage that mimics the functionality of Etsy with React components._
 * _As a user I want to see the current "popular now" results, and be able to click them using the list component_
 
 ## Components
-* _List component: will list "popular now" descriptors from firebase_
+* _List component: will list "popular now" descriptors from hardcoded data_
 
 ## Completed Features
 <!-- * _Page header with working media queries for multiple sizes_ -->

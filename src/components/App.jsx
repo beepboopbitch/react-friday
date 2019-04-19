@@ -13,7 +13,12 @@ import Pop6 from './Pop6';
 function App(){
   return(
     <div>
-    <Header/>
+      <style jsx>{`
+        div {
+          background-color: red;
+        }  
+        `}</style>
+      <Header/>
       <h1>test</h1>
       <Switch>
         <Route exact path='/' component={Home} />
