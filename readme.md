@@ -35,6 +35,10 @@ _A webpage that mimics the functionality of Etsy with React components._
 * _Get majority of styling done | In progress_
 * _Hard code data for populars and display them_
 
+## Notes
+* _I ran into an issue with inputs in the html, it was just a small difference in the syntax react wanted_
+* _While recreating the same css from my angular project I noticed parts would need to be adjusted for them to look the same, although it seemed random, parts of it were spacing issues or it would just completely ignore my code_
+
 ## Component Structure:
 
 ![](./src/assets/images/component.png)

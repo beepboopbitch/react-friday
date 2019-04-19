@@ -139,7 +139,6 @@ function Home(){
         color: gray;
         font-size: 15px;
       }
-      
       @media screen and (max-width: 900px){
         .shopGrid{
           display: grid;
@@ -288,12 +287,9 @@ function Home(){
         }
       }
     `}</style>
-    
-    
     <div className="quote">
       <p>If it's handcrafted, vintage, custom, or unique, it's on Etsy.</p>
     </div>
-    
     <div className="shopGrid">
       <div className="main">
         <div className="mainDescriptor">
@@ -313,7 +309,6 @@ function Home(){
         </div>
       </div>
     </div>
-    
     <div className="descriptions">
       <div className="des des1">
         <p className="checked">Unique everything</p>
@@ -328,9 +323,7 @@ function Home(){
         <p className="def">We use best-in-class technology to protect your transactions.</p>
       </div>
     </div>
-    
     <p className="descriptor">Popular right now</p>
-    
     <div className="populars">
     <div className="pop pop1">
       <img src={pop1}/>
@@ -404,9 +397,7 @@ function Home(){
         <p>$36.00</p>
       </div>
     </div>
-  </div>
-    
-    
+  </div>  
   </div>
   );
 }
