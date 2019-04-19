@@ -15,7 +15,7 @@ function App(){
     <div>
       <style jsx>{`
         div {
-          background-color: red;
+          margin: -8px;
         }  
         `}</style>
       <Header/>
