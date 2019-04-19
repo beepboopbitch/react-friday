@@ -78,7 +78,8 @@ function Header(){
         display: none;
       }  
       `}</style>
-      <div></div>
+      <div className="top">
+      </div>
     </header>
   );
 

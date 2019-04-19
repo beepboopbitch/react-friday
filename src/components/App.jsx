@@ -13,9 +13,9 @@ import Pop6 from './Pop6';
 function App(){
   return(
     <div>
-      <style jsx>{`
-        div {
-          margin: -8px;
+      <style jsx global>{`
+        body {
+          margin: 0;
         }  
         `}</style>
       <Header/>
