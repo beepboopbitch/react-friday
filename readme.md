@@ -32,7 +32,7 @@ _A webpage that mimics the functionality of Etsy with React components._
 
 ## Component Structure:
 
-![](./src/assets/images/components.png)
+![](./src/assets/images/component.png)
 
 ## React Clone:
 
