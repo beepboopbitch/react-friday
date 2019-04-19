@@ -19,7 +19,6 @@ function App(){
         }  
         `}</style>
       <Header/>
-      <h1>test</h1>
       <Switch>
         <Route exact path='/' component={Home} />
         <Route path='/Pop1' component={Pop1} />

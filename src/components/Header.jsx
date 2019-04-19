@@ -4,7 +4,6 @@ import logo from '../assets/images/logo.png';
 
 function Header(){
   return(
-  
     <header>
     <style jsx>{`
       .top{
@@ -110,11 +109,10 @@ function Header(){
           display: none;
         }
       }
-      
       `}</style>
       <div className="top">
         <div className="left">
-          <img className="logo" src={logo}/>
+          <Link to="/"><img className="logo" src={logo}/></Link>
           <div className="input">
             <input className="searchInput"/>
             <button type="button" className="searchButton"><span className="search">Search</span></button>
@@ -147,7 +145,6 @@ function Header(){
       </div>
     </header>
   );
-
 }
 
 export default Header;
