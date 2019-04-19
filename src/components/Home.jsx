@@ -95,6 +95,38 @@ function Home(){
         margin-top: 30px;
         font-size: 30px;
       }
+      .populars{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+        grid-template-rows: 1fr;
+        grid-template-areas: "pop1 pop2 pop3 pop4 pop5 pop6";
+        margin: 2.5% 2.5% 0 2.5%;
+      }
+      .pop1 { grid-area: pop1; }
+      .pop2 { grid-area: pop2; }
+      .pop3 { grid-area: pop3; }
+      .pop4 { grid-area: pop4; }
+      .pop5 { grid-area: pop5; }
+      .pop6 { grid-area: pop6; }
+      .pop{
+        width: calc(100%/6);
+      }
+      .pop img{
+        margin-left: 50%;
+        width: 500%;
+      }
+      .text{
+        margin-left: 50%;
+        width: 500%;
+      }
+      .price{
+        font-size: 18px;
+        font-weight: bold;
+      }
+      .company{
+        color: gray;
+        font-size: 15px;
+      }
       
       @media screen and (max-width: 900px){
         .shopGrid{
@@ -145,6 +177,17 @@ function Home(){
         }
         .descriptor{
           font-size: 23px;
+        }
+        .populars{
+          display: grid;
+          grid-template-columns: 1fr 1fr 1fr;
+          grid-template-rows: 1fr 1fr;
+          grid-template-areas: "pop1 pop2 pop3" "pop4 pop5 pop6";
+          margin: 2.5% 2.5% 0 2.5%;
+        }
+        .pop{
+          width: calc(100%/6);
+          margin-bottom: 20px;
         }
       }
       
@@ -222,6 +265,15 @@ function Home(){
         .descriptor{
           font-size: 23px;
         }
+        @media screen and (max-width: 470px){
+          .populars{
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            grid-template-rows: 1fr 1fr 1fr;
+            grid-template-areas: "pop1 pop2" "pop3 pop4" "pop5 pop6";
+            margin: 2.5% 2.5% 0 2.5%;
+          }
+        }
       }
     `}</style>
     
@@ -265,6 +317,82 @@ function Home(){
       </div>
     </div>
     
+    <p className="descriptor">Popular right now</p>
+    
+    <div className="populars">
+    <div className="pop pop1">
+      <img src="assets/img/pop1.jpg" alt="">
+      <div className="text product product1">
+        <p>example text</p>
+      </div>
+      <div className="text company company1">
+        <p>example text</p>
+      </div>
+      <div className="text price price1">
+        <p>$36.00</p>
+      </div>
+    </div>
+    <div className="pop pop2">
+      <img src="assets/img/pop2.jpg" alt="">
+      <div className="text product product2">
+        <p>example text</p>
+      </div>
+      <div className="text company company2">
+        <p>example text</p>
+      </div>
+      <div className="text price price2">
+        <p>$36.00</p>
+      </div>
+    </div>
+    <div className="pop pop3">
+      <img src="assets/img/pop3.jpg" alt="">
+      <div className="text product product3">
+        <p>example text</p>
+      </div>
+      <div className="text company company3">
+        <p>example text</p>
+      </div>
+      <div className="text price price3">
+        <p>$36.00</p>
+      </div>
+    </div>
+    <div className="pop pop4">
+      <img src="assets/img/pop4.jpg" alt="">
+      <div className="text product product4">
+        <p>example text</p>
+      </div>
+      <div className="text company company4">
+        <p>example text</p>
+      </div>
+      <div className="text price price4">
+        <p>$36.00</p>
+      </div>
+    </div>
+    <div className="pop pop5">
+      <img src="assets/img/pop5.jpg" alt="">
+      <div className="text product product5">
+        <p>example text</p>
+      </div>
+      <div className="text company company5">
+        <p>example text</p>
+      </div>
+      <div className="text price price5">
+        <p>$36.00</p>
+      </div>
+    </div>
+    <div className="pop pop6">
+      <img src="assets/img/pop6.jpg" alt="">
+      <div className="text product product6">
+        <p>example text</p>
+      </div>
+      <div className="text company company6">
+        <p>example text</p>
+      </div>
+      <div className="text price price6">
+        <p>$36.00</p>
+      </div>
+    </div>
+  </div>
     
     
   </div>
