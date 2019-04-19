@@ -19,6 +19,7 @@ _A webpage that mimics the functionality of Etsy with React components._
 ## Completed Features
 * _Component structure_
 * _Multi-page routing_
+* _Fully styled header with media queries_
 
 ## MVP
 * _Fully styled main page, with routing to secondary pages that display a specific popular object (not fully styled). List of populars (on main page) is displaying hard coded data pulled from outside HTML._
