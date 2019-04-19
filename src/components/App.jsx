@@ -29,17 +29,6 @@ function App(){
         <Route path='/Pop6' component={Pop6} />
         <Route component={Error404} />
       </Switch>
-      <Link  to="/Pop1">Popular 1</Link>
-      <br/>
-      <Link  to="/Pop2">Popular 2</Link>
-      <br/>
-      <Link  to="/Pop3">Popular 3</Link>
-      <br/>
-      <Link  to="/Pop4">Popular 4</Link>
-      <br/>
-      <Link  to="/Pop5">Popular 5</Link>
-      <br/>
-      <Link  to="/Pop6">Popular 6</Link>
     </div>
   );
 }
