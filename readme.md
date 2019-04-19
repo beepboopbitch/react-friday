@@ -22,6 +22,9 @@ _A webpage that mimics the functionality of Etsy with React components._
 <!-- * _Main shop grid with working media queries for multiple sizes_ -->
 <!-- * _Populars grid with working media queries for multiple sizes_ -->
 
+## MVP
+* _Fully styled main page, with routing to secondary pages that display a specific popular object (not fully styled). List of populars (on main page) is displaying hard coded data pulled from outside HTML._
+
 ## Goals for first friday
 * _Make component structure_
 * _Get majority of styling done_
@@ -31,7 +34,11 @@ _A webpage that mimics the functionality of Etsy with React components._
 
 ![]()
 
-## My Clone:
+## React Clone:
+
+![]()
+
+## Angular Clone:
 
 ![]()
 
