@@ -71,6 +71,30 @@ function Home(){
       .sideBottom p{
         margin-top: 20px;
       }
+      .descriptions{
+        padding-top: 20px;
+        display: flex;
+        flex-direction: row;
+        margin: 10px 0 0 10px;
+      }
+      .des{
+        width: 33%;
+        margin: 0 20px 0 20px;
+      }
+      .checked{
+        font-size: 17px;
+        margin-bottom: 5px;
+        text-align: center;
+      }
+      .def{
+        font-size: 15px;
+        text-align: center;
+      }
+      .descriptor{
+        text-align: center;
+        margin-top: 30px;
+        font-size: 30px;
+      }
       
       @media screen and (max-width: 900px){
         .shopGrid{
@@ -101,6 +125,26 @@ function Home(){
         }
         .sideBottom p{
           margin-top: 80px;
+        }
+        .descriptions{
+          padding-top: 5px;
+          display: flex;
+          flex-direction: row;
+          margin: 0 0 0 10px;
+        }
+        .des{
+          width: 33%;
+          margin: 0 20px 0 20px;
+        }
+        .checked{
+          font-size: 15px;
+          margin-bottom: 5px;
+        }
+        .def{
+          font-size: 12px;
+        }
+        .descriptor{
+          font-size: 23px;
         }
       }
       

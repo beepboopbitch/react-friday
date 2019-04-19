@@ -19,6 +19,16 @@ function App(){
         }  
       `}</style>  
       <Header/>
+      <Switch>
+        <Route exact path='/' component={Home} />
+        <Route path='/Pop1' component={Pop1} />
+        <Route path='/Pop2' component={Pop2} />
+        <Route path='/Pop3' component={Pop3} />
+        <Route path='/Pop4' component={Pop4} />
+        <Route path='/Pop5' component={Pop5} />
+        <Route path='/Pop6' component={Pop6} />
+        <Route component={Error404} />
+      </Switch>
       <Link  to="/Pop1">Popular 1</Link>
       <br/>
       <Link  to="/Pop2">Popular 2</Link>
@@ -30,16 +40,6 @@ function App(){
       <Link  to="/Pop5">Popular 5</Link>
       <br/>
       <Link  to="/Pop6">Popular 6</Link>
-      <Switch>
-        <Route exact path='/' component={Home} />
-        <Route path='/Pop1' component={Pop1} />
-        <Route path='/Pop2' component={Pop2} />
-        <Route path='/Pop3' component={Pop3} />
-        <Route path='/Pop4' component={Pop4} />
-        <Route path='/Pop5' component={Pop5} />
-        <Route path='/Pop6' component={Pop6} />
-        <Route component={Error404} />
-      </Switch>
     </div>
   );
 }
