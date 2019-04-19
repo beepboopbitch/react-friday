@@ -123,8 +123,14 @@ function Home(){
         }
         .mainDescriptor{
           padding: 15px 0 0 0;
-          height: 25%;
+          height: 20%;
           font-size: 13px;
+        }
+        .mainDescriptor h1 {
+          margin: 0;
+        }
+        .mainDescriptor p {
+          margin: 0;
         }
         .side{
           margin-top: 20px;
@@ -150,7 +156,6 @@ function Home(){
           text-align: left;
           margin-left: 10px;
         }
-
       }
       @media screen and (max-width: 470px){
         
