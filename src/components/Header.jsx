@@ -78,14 +78,71 @@ function Header(){
       .bottomSearch{
         display: none;
       }  
+      @media screen and (max-width: 900px){
+        .input{
+          display: none;
+        }
+        .bottom{
+          display: none;
+        }
+        .bottomSearch{
+          display: block;
+          width: 100%;
+          padding-left: 5%;
+          padding-right: 5%;
+          padding-top: 10px;
+          padding-bottom: 10px;
+        }
+        .searchInput{
+          width: 70%;
+        }
+        .searchButton{
+          width: 19%;
+        }
+      }
+      @media screen and (max-width: 520px){
+        .one{
+          display: none;
+        }
+      }
+      @media screen and (max-width: 420px){
+        .two{
+          display: none;
+        }
+      }
+      
       `}</style>
       <div className="top">
         <div className="left">
           <img className="logo" src={logo}/>
           <div className="input">
             <input className="searchInput"/>
-            
+            <button type="button" className="searchButton"><span className="search">Search</span></button>
           </div>
+        </div>
+        <div className="right">
+          <p className="one">Sell on Etsy</p>
+          <p className="two">Register</p>
+          <button type="button" id="signIn">Sign in</button>
+          <p>Discover</p>
+          <p>Cart</p>
+        </div>
+      </div>
+      <div className="bottomMain">
+        <div className="bottomSearch">
+          <input className="searchInput"/>
+          <button type="button" className="searchButton"><span className="search">Search</span></button>
+        </div>
+        <div className="bottom">
+          <p>Jewelry & Accessories</p>
+          <p>Clothing & Shoes</p>
+          <p>Home & Living</p>
+          <p>Wedding & Party</p>
+          <p>Toys & Entertainment</p>
+          <p>Art & Collectibles</p>
+          <p>Craft Supplies</p>
+          <p>Vintage</p>
+          <p>Gifts</p>
         </div>
       </div>
     </header>
