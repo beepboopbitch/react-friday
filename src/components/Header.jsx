@@ -82,6 +82,10 @@ function Header(){
       <div className="top">
         <div className="left">
           <img className="logo" src={logo}/>
+          <div className="input">
+            <input className="searchInput"/>
+            
+          </div>
         </div>
       </div>
     </header>

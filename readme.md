@@ -17,10 +17,8 @@ _A webpage that mimics the functionality of Etsy with React components._
 * _List component: will list "popular now" descriptors from hardcoded data_
 
 ## Completed Features
-<!-- * _Page header with working media queries for multiple sizes_ -->
-<!-- * _Page quote with working media queries for multiple sizes_ -->
-<!-- * _Main shop grid with working media queries for multiple sizes_ -->
-<!-- * _Populars grid with working media queries for multiple sizes_ -->
+* _Component structure_
+* _Multi-page routing_
 
 ## MVP
 * _Fully styled main page, with routing to secondary pages that display a specific popular object (not fully styled). List of populars (on main page) is displaying hard coded data pulled from outside HTML._
@@ -29,7 +27,7 @@ _A webpage that mimics the functionality of Etsy with React components._
 * _Make component structure | completed, will adjust as project continues_
 * _Setup react in my project and get component structure built | completed_
 * _Route all pages succesfully | Completed_
-* _Get majority of styling done_
+* _Get majority of styling done | In progress_
 * _Hard code data for populars and display them_
 
 ## Component Structure:
