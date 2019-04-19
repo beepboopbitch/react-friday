@@ -2,6 +2,12 @@ import React from "react";
 import { Switch, Route, Link } from 'react-router-dom';
 import sideImg from '../assets/images/sideImg.jpg'
 import mainImg from '../assets/images/mainImg.jpg'
+import pop1 from '../assets/images/pop1.jpg'
+import pop2 from '../assets/images/pop2.jpg'
+import pop3 from '../assets/images/pop3.jpg'
+import pop4 from '../assets/images/pop4.jpg'
+import pop5 from '../assets/images/pop5.jpg'
+import pop6 from '../assets/images/pop6.jpg'
 
 function Home(){
   return(
@@ -321,7 +327,7 @@ function Home(){
     
     <div className="populars">
     <div className="pop pop1">
-      <img src="assets/img/pop1.jpg" alt="">
+      <img src={pop1}/>
       <div className="text product product1">
         <p>example text</p>
       </div>
@@ -333,7 +339,7 @@ function Home(){
       </div>
     </div>
     <div className="pop pop2">
-      <img src="assets/img/pop2.jpg" alt="">
+      <img src={pop2}/>
       <div className="text product product2">
         <p>example text</p>
       </div>
@@ -345,7 +351,7 @@ function Home(){
       </div>
     </div>
     <div className="pop pop3">
-      <img src="assets/img/pop3.jpg" alt="">
+      <img src={pop3}/>
       <div className="text product product3">
         <p>example text</p>
       </div>
@@ -357,7 +363,7 @@ function Home(){
       </div>
     </div>
     <div className="pop pop4">
-      <img src="assets/img/pop4.jpg" alt="">
+      <img src={pop4}/>
       <div className="text product product4">
         <p>example text</p>
       </div>
@@ -369,7 +375,7 @@ function Home(){
       </div>
     </div>
     <div className="pop pop5">
-      <img src="assets/img/pop5.jpg" alt="">
+      <img src={pop5}/>
       <div className="text product product5">
         <p>example text</p>
       </div>
@@ -381,7 +387,7 @@ function Home(){
       </div>
     </div>
     <div className="pop pop6">
-      <img src="assets/img/pop6.jpg" alt="">
+      <img src={pop6}/>
       <div className="text product product6">
         <p>example text</p>
       </div>
