@@ -22,8 +22,10 @@ _A webpage that mimics the functionality of Etsy with React components._
 <!-- * _Main shop grid with working media queries for multiple sizes_ -->
 <!-- * _Populars grid with working media queries for multiple sizes_ -->
 
-## Goals for today
-* __
+## Goals for first friday
+* _Make component structure_
+* _Get majority of styling done_
+* _Hard code data for populars and display them_
 
 ## Component Structure:
 
