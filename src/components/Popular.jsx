@@ -1,4 +1,5 @@
 import React from 'react';
+import Pop1 from './Pop1';
 
 class Popular extends React.Component {
 
@@ -17,10 +18,7 @@ class Popular extends React.Component {
 
   render(){
     return (
-      <div>
-        <p>This is my Popular component</p>
-        <strong onClick={this.handleClick}>Click me to change my state!</strong>
-      </div>
+      <Pop1 />
     );
   }
 }
