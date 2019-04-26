@@ -43,6 +43,7 @@ _A webpage that mimics the functionality of Etsy with React components._
 * _Make Popular component | Completed_
 * _Test component | Completed_
 * _Use components state outside | in progress_
+* _Research into state and reviewing other projects for an hour_
 
 ## Notes
 * _I ran into an issue with inputs in the html, it was just a small difference in the syntax react wanted_
