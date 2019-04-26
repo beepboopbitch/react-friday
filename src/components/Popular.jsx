@@ -7,13 +7,13 @@ class Popular extends React.Component {
     this.state = {
       fromVisibleOnPage: false
     };
-    this.handleClick = this.handleClick.bind(this);
+    // this.handleClick = this.handleClick.bind(this);
   }
 
-  handleClick(){
-    this.setState({formVisibleOnPage: true});
-    console.log('formVisibleOnPage is currently set to:' + this.state.formVisibleOnPage);
-  }
+  // handleClick(){
+  //   this.setState({formVisibleOnPage: true});
+  //   console.log('formVisibleOnPage is currently set to:' + this.state.formVisibleOnPage);
+  // }
 
   render(){
     return (
