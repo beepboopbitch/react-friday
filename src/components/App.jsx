@@ -9,6 +9,7 @@ import Pop3 from './Pop3';
 import Pop4 from './Pop4';
 import Pop5 from './Pop5';
 import Pop6 from './Pop6';
+import Popular from './Popular'
 
 function App(){
   return(
@@ -16,11 +17,12 @@ function App(){
       <style jsx global>{`
         body {
           margin: 0;
-        }  
-      `}</style>  
+        }
+      `}</style>
       <Header/>
       <Switch>
         <Route exact path='/' component={Home} />
+        <Route path='/Popular' component={Popular} />
         <Route path='/Pop1' component={Pop1} />
         <Route path='/Pop2' component={Pop2} />
         <Route path='/Pop3' component={Pop3} />
