@@ -9,10 +9,15 @@ class Popular extends React.Component {
     };
   }
 
+  handleClick(){
+    console.log('test');
+  }
+
   render(){
     return (
       <div>
         <p>This is my Popular component</p>
+        <strong onClick={this.handleClick}>Click me to change my state!</strong>
       </div>
     );
   }
