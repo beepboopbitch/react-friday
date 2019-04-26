@@ -15,6 +15,9 @@ _A webpage that mimics the functionality of Etsy with React components._
 
 ## Components
 * _List component: will list "popular now" descriptors from hardcoded data_
+* _App is the main component_
+* _Home displays styled home page_
+* _Pop1-6 display separate pop pages_
 
 ## Completed Features
 * _Component structure_
