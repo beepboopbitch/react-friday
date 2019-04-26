@@ -36,6 +36,11 @@ _A webpage that mimics the functionality of Etsy with React components._
 * _Get majority of styling done | Completed_
 * _Hard code data for populars and display them | Incomplete_
 
+## Goals for second friday
+* _Make Popular component | Completed_
+* _Test component | Completed_
+* _Use components state outside | in progress_
+
 ## Notes
 * _I ran into an issue with inputs in the html, it was just a small difference in the syntax react wanted_
 * _While recreating the same css from my angular project I noticed parts would need to be adjusted for them to look the same, although it seemed random, parts of it were spacing issues or it would just completely ignore my code_
