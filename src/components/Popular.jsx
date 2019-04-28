@@ -20,7 +20,9 @@ class Popular extends React.Component {
     return (
       <div>
         <Pop1 />
-        <input />
+        <p>Company <input /></p>
+        <p>Product <input /></p>
+        <p>Price <input /></p>
       </div>
     );
   }
