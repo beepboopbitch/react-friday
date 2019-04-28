@@ -18,11 +18,20 @@ class Popular extends React.Component {
 
   render(){
     return (
-      <div>
+      <div className="">
+        <style jsx>{`
+          .box{
+            border: 2px solid black;
+            width: 400px;
+          }
+
+        `}</style>
         <Pop1 />
-        <p>Company <input /></p>
-        <p>Product <input /></p>
-        <p>Price <input /></p>
+        <div className="box">
+          <p>Company <input /></p>
+          <p>Product <input /></p>
+          <p>Price <input /></p>
+        </div>
       </div>
     );
   }
