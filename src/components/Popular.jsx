@@ -18,11 +18,15 @@ class Popular extends React.Component {
 
   render(){
     return (
-      <div className="">
+      <div className="main">
         <style jsx>{`
           .box{
             border: 2px solid black;
             width: 400px;
+            padding-left: 20px;
+          }
+          .main{
+            margin-left: 50px;
           }
 
         `}</style>
