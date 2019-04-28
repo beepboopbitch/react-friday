@@ -4,7 +4,7 @@ import { Switch, Route, Link } from 'react-router-dom';
 function Pop1(){
   return(
     <div>
-      <h1>test pop</h1>
+      <h1>pop 1</h1>
     </div>
   );
 }
