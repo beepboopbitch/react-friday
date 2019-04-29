@@ -32,18 +32,19 @@ _A webpage that mimics the functionality of Etsy with React components._
 ## MVP
 * _Fully styled main page, with routing to secondary pages that display a specific popular object (not fully styled). List of populars (on main page) is displaying inputted data._
 
-## Goals for first friday
+## First Friday
 * _Make component structure | completed, will adjust as project continues_
 * _Setup react in my project and get component structure built | completed_
 * _Route all pages succesfully | Completed_
 * _Get majority of styling done | Completed_
 * _Hard code data for populars and display them | Incomplete_
 
-## Goals for second friday
+## Second Friday
 * _Make Popular component | Completed_
 * _Test component | Completed_
 * _Use components state outside | in progress_
 * _Research into state and reviewing other projects for an hour_
+* _Restructure links/components | completed_
 
 ## Notes
 * _I ran into an issue with inputs in the html, it was just a small difference in the syntax react wanted_
