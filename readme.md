@@ -45,7 +45,7 @@ _A webpage that mimics the functionality of Etsy with React components._
 * _Use components state outside | in progress_
 * _Research into state and reviewing other projects for an hour_
 * _Restructure links/components | completed_
-* _Update component structure sketch | in progress_
+* _Update component structure sketch | completed_
 
 ## Notes
 * _I ran into an issue with inputs in the html, it was just a small difference in the syntax react wanted_
@@ -54,6 +54,10 @@ _A webpage that mimics the functionality of Etsy with React components._
 ## Component Structure:
 
 ![](./src/assets/images/component.png)
+
+## Component Structure Update:
+
+![](./src/assets/images/component2.png)
 
 ## React Clone:
 
