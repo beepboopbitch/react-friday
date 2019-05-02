@@ -1,14 +1,14 @@
 export default (state = {company: null, product: null, price: null}, action) => {
   switch (action.type) {
   case 'FORM_SUBMIT':
-    const {company, product, price} = action
+    const {company, product, price} = action;
     let newState = Object.assign({}, state, {
-      company,
-      product,
-      price
+      company: company,
+      product: product,
+      price: price
     })
-    return newState
+    return newState;
   default:
-    return state
+    return state;
   }
 }
