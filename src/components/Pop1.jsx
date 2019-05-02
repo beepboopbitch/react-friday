@@ -9,13 +9,20 @@ function Pop1(props){
   let _price = null;
 
   function updater(event) {
+    const newCompany = props.popularReducer.company;
+    newCompany[0] = _company.value;
+    const newProduct = props.popularReducer.product;
+    newProduct[0] = _product.value;
+    const newPrice = props.popularReducer.price;
+    newPrice[0] = _price.value;
+    console.log(newCompany)
     const { dispatch } = props;
     event.preventDefault();
     const action = {
       type: 'FORM_SUBMIT',
-      company: _company.value,
-      product: _product.value,
-      price: _price.value,
+      company: newCompany,
+      product: newProduct,
+      price: newPrice,
     };
     dispatch(action);
     _company.value = '';

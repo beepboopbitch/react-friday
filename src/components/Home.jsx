@@ -324,73 +324,73 @@ function Home(props){
     <div className="pop pop1">
       <img src={pop1}/>
       <div className="text product product1">
-        <p><Link to="/popular">{props.popularReducer.company}</Link></p>
+        <p><Link to="/popular">{props.popularReducer.company[0]}</Link></p>
       </div>
       <div className="text company company1">
-        <p>example text</p>
+        <p>{props.popularReducer.product[0]}</p>
       </div>
       <div className="text price price1">
-        <p>$36.00</p>
+        <p>{props.popularReducer.price[0]}</p>
       </div>
     </div>
     <div className="pop pop2">
       <img src={pop2}/>
       <div className="text product product2">
-        <p><Link to="/popular">example text</Link></p>
+        <p><Link to="/popular">{props.popularReducer.company[1]}</Link></p>
       </div>
-      <div className="text company company2">
-        <p>example text</p>
+      <div className="text company company1">
+        <p>{props.popularReducer.product[1]}</p>
       </div>
-      <div className="text price price2">
-        <p>$36.00</p>
+      <div className="text price price1">
+        <p>{props.popularReducer.price[1]}</p>
       </div>
     </div>
     <div className="pop pop3">
       <img src={pop3}/>
       <div className="text product product3">
-        <p><Link to="/popular">example text</Link></p>
+        <p><Link to="/popular">{props.popularReducer.company[2]}</Link></p>
       </div>
-      <div className="text company company3">
-        <p>example text</p>
+      <div className="text company company1">
+        <p>{props.popularReducer.product[2]}</p>
       </div>
-      <div className="text price price3">
-        <p>$36.00</p>
+      <div className="text price price1">
+        <p>{props.popularReducer.price[2]}</p>
       </div>
     </div>
     <div className="pop pop4">
       <img src={pop4}/>
       <div className="text product product4">
-        <p><Link to="/popular">example text</Link></p>
+        <p><Link to="/popular">{props.popularReducer.company[3]}</Link></p>
       </div>
-      <div className="text company company4">
-        <p>example text</p>
+      <div className="text company company1">
+        <p>{props.popularReducer.product[3]}</p>
       </div>
-      <div className="text price price4">
-        <p>$36.00</p>
+      <div className="text price price1">
+        <p>{props.popularReducer.price[3]}</p>
       </div>
     </div>
     <div className="pop pop5">
       <img src={pop5}/>
       <div className="text product product5">
-        <p><Link to="/popular">example text</Link></p>
+        <p><Link to="/popular">{props.popularReducer.company[4]}</Link></p>
       </div>
-      <div className="text company company5">
-        <p>example text</p>
+      <div className="text company company1">
+        <p>{props.popularReducer.product[4]}</p>
       </div>
-      <div className="text price price5">
-        <p>$36.00</p>
+      <div className="text price price1">
+        <p>{props.popularReducer.price[4]}</p>
       </div>
     </div>
     <div className="pop pop6">
       <img src={pop6}/>
       <div className="text product product6">
-        <p><Link to="/popular">example text</Link></p>
+        <p><Link to="/popular">{props.popularReducer.company[5]}</Link></p>
       </div>
-      <div className="text company company6">
-        <p>example text</p>
+      <div className="text company company1">
+        <p>{props.popularReducer.product[5]}</p>
       </div>
-      <div className="text price price6">
-        <p>$36.00</p>
+      <div className="text price price1">
+        <p>{props.popularReducer.price[5]}</p>
       </div>
     </div>
   </div>
