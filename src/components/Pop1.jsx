@@ -1,6 +1,7 @@
 import React from "react";
+import { connect } from 'react-redux'
 import { Switch, Route, Link } from 'react-router-dom';
-
+import popularReducer from './../reducers/popular-reducer.js';
 
 function Pop1(){
   return(
@@ -25,5 +26,13 @@ function Pop1(){
     </div>
   );
 }
+
+const mapStateToProps = state => {
+  return {
+    popularReducer: state
+  }
+}
+
+Pop1 = connect(mapStateToProps)(Pop1);
 
 export default Pop1;
