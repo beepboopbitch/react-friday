@@ -47,6 +47,10 @@ _A webpage that mimics the functionality of Etsy with React components._
 * _Restructure links/components | completed_
 * _Update component structure sketch | completed_
 
+## Further Work
+* _Can now submit forms and change state that displays on home page_
+* _Redux fully implemented_
+
 ## Notes
 * _I ran into an issue with inputs in the html, it was just a small difference in the syntax react wanted_
 * _While recreating the same css from my angular project I noticed parts would need to be adjusted for them to look the same, although it seemed random, parts of it were spacing issues or it would just completely ignore my code_
