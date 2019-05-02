@@ -1,5 +1,5 @@
 import React from "react";
-import { connect } from 'react-redux'
+import { connect } from 'react-redux';
 import { Switch, Route, Link } from 'react-router-dom';
 import popularReducer from './../reducers/popular-reducer.js';
 
@@ -42,7 +42,6 @@ function Pop1(props){
           <p>Company <input type='text' id='company' placeholder='Company Name' ref={(input) => {_company = input;}}/></p>
           <p>Product <input type='text' id='product' placeholder='Product Name' ref={(input) => {_product = input;}} /></p>
           <p>Price <input type='text' id='price' placeholder='Price' ref={(input) => {_price = input;}}/></p>
-          <p>{props.popularReducer.company}</p>
           <button type='submit' style={{marginBottom: 20}}></button>
         </div>
       </form>

@@ -1,15 +1,17 @@
 import React from "react";
 import { Switch, Route, Link } from 'react-router-dom';
-import sideImg from '../assets/images/sideImg.jpg'
-import mainImg from '../assets/images/mainImg.jpg'
-import pop1 from '../assets/images/pop1.jpg'
-import pop2 from '../assets/images/pop2.jpg'
-import pop3 from '../assets/images/pop3.jpg'
-import pop4 from '../assets/images/pop4.jpg'
-import pop5 from '../assets/images/pop5.jpg'
-import pop6 from '../assets/images/pop6.jpg'
+import sideImg from '../assets/images/sideImg.jpg';
+import mainImg from '../assets/images/mainImg.jpg';
+import pop1 from '../assets/images/pop1.jpg';
+import pop2 from '../assets/images/pop2.jpg';
+import pop3 from '../assets/images/pop3.jpg';
+import pop4 from '../assets/images/pop4.jpg';
+import pop5 from '../assets/images/pop5.jpg';
+import pop6 from '../assets/images/pop6.jpg';
+import popularReducer from './../reducers/popular-reducer.js';
+import { connect } from 'react-redux';
 
-function Home(){
+function Home(props){
   return(
   <div>
     <style jsx>{`
@@ -322,7 +324,7 @@ function Home(){
     <div className="pop pop1">
       <img src={pop1}/>
       <div className="text product product1">
-        <p><Link to="/popular">example text</Link></p>
+        <p><Link to="/popular">{props.popularReducer.company}</Link></p>
       </div>
       <div className="text company company1">
         <p>example text</p>
@@ -395,5 +397,13 @@ function Home(){
   </div>
   );
 }
+
+const mapStateToProps = state => {
+  return {
+    popularReducer: state
+  }
+}
+
+Home = connect(mapStateToProps)(Home);
 
 export default Home;
