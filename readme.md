@@ -61,7 +61,7 @@ _A webpage that mimics the functionality of Etsy with React components._
 
 ## Component Structure Update:
 
-![](./src/assets/images/component2.png)
+![](./src/assets/images/componentUpdate.png)
 
 ## React Clone:
 
