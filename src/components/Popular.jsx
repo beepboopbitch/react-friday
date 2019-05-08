@@ -4,6 +4,7 @@ import { Switch, Route, Link } from 'react-router-dom';
 import popularReducer from './../reducers/popular-reducer.js';
 import constants from './../constants';
 const { c } = constants;
+import { populars } from './../actions';
 
 function Popular(props){
   let _company = null;
