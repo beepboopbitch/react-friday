@@ -10,6 +10,8 @@ import pop5 from '../assets/images/pop5.jpg';
 import pop6 from '../assets/images/pop6.jpg';
 import popularReducer from './../reducers/popular-reducer.js';
 import { connect } from 'react-redux';
+import constants from './../constants';
+const { c } = constants;
 
 function Home(props){
   return(

@@ -5,6 +5,7 @@ import { HashRouter } from 'react-router-dom';
 import { Provider } from 'react-redux';
 import { createStore } from 'redux';
 import popularReducer from './reducers/popular-reducer.js';
+import rootReducer from './reducers/index';
 
 
 const store = createStore(popularReducer)

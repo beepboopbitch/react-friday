@@ -4,6 +4,10 @@ import Error404 from './Error404';
 import Header from './Header';
 import Home from './Home';
 import Popular from './Popular'
+import { connect } from 'react-redux';
+import PropTypes from 'prop-types';
+import constants from './../constants';
+const { c } = constants;
 
 function App(){
   return(
